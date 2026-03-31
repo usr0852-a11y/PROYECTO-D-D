@@ -10,5 +10,12 @@ public class Mago extends Personaje {
         super(nombre, nivel);
         this.elemento = elemento;
     }
+
+    public String getElemento() {
+        return elemento;
+    }
+    public void setElemento(String elemento) {
+        this.elemento = elemento;
+    }
     
 }
