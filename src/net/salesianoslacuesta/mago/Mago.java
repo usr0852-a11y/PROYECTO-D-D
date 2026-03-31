@@ -1,5 +1,8 @@
 package net.salesianoslacuesta.mago;
 
-public class Mago {
-    
+import net.salesianoslacuesta.mago.Mago;
+import net.salesianoslacuesta.personaje.Personaje;
+
+public class Mago extends Personaje {
+    private String elemento;
 }
