@@ -26,5 +26,9 @@ public void setArma(String arma) {
     System.out.println("Arma: " + arma);
 
  }
- 
+
+public void ataquePesado() {
+    gastarEnergia(15);
+}
+
 }
