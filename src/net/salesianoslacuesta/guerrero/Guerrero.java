@@ -19,4 +19,12 @@ public void setArma(String arma) {
     this.arma = arma;
 }
 
+
+@Override
+ public void mostrarInfo() {
+    super.mostrarInfo();
+    System.out.println("Arma: " + arma);
+
+ }
+ 
 }
