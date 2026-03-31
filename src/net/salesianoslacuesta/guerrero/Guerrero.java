@@ -11,4 +11,12 @@ public Guerrero(String nombre, int nivel, String arma) {
     this.arma = arma;
 }
 
+public String getArma() {
+    return arma;
+}
+
+public void setArma(String arma) {
+    this.arma = arma;
+}
+
 }
